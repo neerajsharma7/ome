@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Lato Hairline"), local("Lato-Hairline"), url("http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2") format("woff2"), url("http://fonts.gstatic.com/s/lato/v11/boeCNmOCCh-EWFLSfVffDg.woff") format("woff");
+}
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Lato Light"), local("Lato-Light"), url("http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2") format("woff2"), url("http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff") format("woff");
+}
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato Regular"), local("Lato-Regular"), url("http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2") format("woff2"), url("http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff") format("woff");
+}
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato Bold"), local("Lato-Bold"), url("http://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2") format("woff2"), url("http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff") format("woff");
+}
+
+
+
+* {
+font-family: "Lato,​sans-serif";
+}
+
+h3 {
+	font-weight: 700;
+}
+.set-header {	 
+    font-size: 14px;    
+    background-color : #202024;
+    min-height: 80px;
+}
+
+.header-bar {
+	background-color: #202024;
+	min-height: 80px;
+}
+.set-nav {
+	margin-top : 12px;
+}
+
+.navbar-default {
+	border: 0px none;
+}
+
+.navbar-collapse > .navbar-nav a:hover,
+.navbar-collapse .navbar-nav >.active a,
+.navbar-collapse .navbar-nav >.active a:hover {    
+    color: #CACACA!important;
+    border-color: #CACACA;
+    border-radius: 5px;
+    border-style : solid;
+    border-width : 1px;
+    background-color : #202024;
+    border-spacing : 2px;
+    margin:7px;
+    padding:7px;
+}
+
+.logo {
+	position : absolute;
+	background-color: #FDB54E;
+	padding: 20px 40px 0px 100px;;
+	min-height: 80px;
+	font-size : 25px;	
+}
+
+.logo a {
+	color : #202024;
+}
+
+.set-footer {
+	background-color : #202024;
+	min-height: 200px;
+	padding: 20px 0px 0px 0px;
+	color : #CACACA;
+ }
+ 
+.s-l {
+	display:inline-block;
+	width:60px;
+	vertical-align: top;
+}
+.s-v {
+	display:inline-block;
+}
+.ot-list {
+	margin-left: 0px;
+	padding-left: 20px;
+}
+.ot-list li {
+	padding: 5px;	
+}
+
+.map figure iframe {
+    border: 0 none;
+    height: 350px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.orange {
+	color : #FDB54E;
+}
+
+.address {
+	padding:20px;
+}
