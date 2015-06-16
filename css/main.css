@@ -127,6 +127,20 @@ h4 {
 	padding:20px;
 }
 
+.form-control, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    box-shadow: none;
+    height: auto;
+    padding: 15px;
+}
+
 table.dtable {
     margin-top: 20px;
     margin-bottom: 10px;
