@@ -127,6 +127,11 @@ h4 {
 	padding:20px;
 }
 
+.welcome_box {
+	background-color:#EEEEEE;
+	padding-bottom:10px;
+}
+
 .form-control, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
