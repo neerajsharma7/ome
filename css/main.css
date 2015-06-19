@@ -132,6 +132,10 @@ h4 {
 	padding-bottom:10px;
 }
 
+.error {
+	color:#FF3B30;	
+}
+
 .form-control, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -385,10 +389,10 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
     display:block;
     position: relative;
     z-index: 1;
-    width: 39px;
-    height: 39px;
-    line-height: 39px;
-    font-size: 21px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
