@@ -38,12 +38,12 @@ h4 {
 .set-header {	 
     font-size: 14px;    
     background-color : #202024;
-    min-height: 80px;
+    min-height: 75px;
 }
 
 .header-bar {
 	background-color: #202024;
-	min-height: 80px;
+	min-height: 75px;
 }
 .set-nav {
 	margin-top : 12px;
@@ -51,7 +51,7 @@ h4 {
 
 .navbar-default {
 	border: 0px none;
-	border-bottom : 1px solid #FF3B30;
+	border-bottom : 1px solid #FDB54E;
 }
 
 .navbar-collapse > .navbar-nav a {
@@ -107,7 +107,7 @@ button.navbar-toggle {
 	position : absolute;
 	background-color: #FDB54E;
 	padding: 20px 40px 0px 100px;
-	min-height: 80px;
+	min-height: 75px;
 	font-size : 25px;	
 	float:left;
 	overflow:hidden;
