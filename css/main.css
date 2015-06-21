@@ -95,12 +95,12 @@ button.navbar-toggle {
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	border-color:#202024;
-	background-color:#FDB54E;
+	border-color:#FDB54E;
+	background-color:#202024;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color:#202024;
+	background-color:#FDB54E;
 }
 
 .logo {
