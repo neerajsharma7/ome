@@ -106,13 +106,32 @@ button.navbar-toggle {
 .logo {
 	position : absolute;
 	background-color: #FDB54E;
-	padding: 20px 40px 0px 100px;;
+	padding: 20px 40px 0px 100px;
 	min-height: 80px;
 	font-size : 25px;	
+	float:left;
+	overflow:hidden;
 }
 
-.logo a {
-	color : #202024;
+.logo img {
+	width:260px;
+	height:110px;
+	float: left;
+	margin-top:-30px;
+	margin-right:-112px;
+}
+
+.logo .navbar-brand {
+	color : #C1272D;
+}
+
+.logo_text,
+.logo_text:hover {
+	color : #C1272D;
+	float: right;
+	font-size:14px;
+	padding-top:10px;
+	text-decoration:none;
 }
 
 .set-footer {
@@ -504,7 +523,7 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 
 @media(max-width:767px){
 	.logo {
-		padding: 0px 40px 0px 0px;
+		padding: 0px 0px 0px 0px;
 	}
 	
 	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
@@ -525,7 +544,7 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 }
 @media(min-width:1200px){
 	.logo {
-		padding: 0px 40px 0px 200px;
+		padding: 0px 40px 0px 100px;
 	}
 }
 
