@@ -54,6 +54,10 @@ h4 {
 	border-bottom : 1px solid #FDB54E;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #FDB54E;
+}
+
 .navbar-collapse > .navbar-nav a {
 	border: 1px solid transparent;
 	border-spacing : 2px;
