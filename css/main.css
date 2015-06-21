@@ -51,11 +51,21 @@ h4 {
 
 .navbar-default {
 	border: 0px none;
+	border-bottom : 1px solid #FF3B30;
+}
+
+.navbar-collapse > .navbar-nav a {
+	border: 1px solid transparent;
+	border-spacing : 2px;
+	margin:7px;
+    padding:7px;
 }
 
 .navbar-collapse > .navbar-nav a:hover,
-.navbar-collapse .navbar-nav >.active a,
-.navbar-collapse .navbar-nav >.active a:hover {    
+.navbar-collapse .navbar-nav >.active > a,
+.navbar-collapse .navbar-nav >.active > div.dropdown > a,
+.navbar-collapse .navbar-nav >.active a:hover,
+.navbar-collapse .navbar-nav > .active > a:focus {    
     color: #CACACA!important;
     border-color: #CACACA;
     border-radius: 5px;
@@ -65,6 +75,32 @@ h4 {
     border-spacing : 2px;
     margin:7px;
     padding:7px;
+}
+
+.nav .open > a, 
+.nav .open > a:focus, 
+.nav .open > a:hover {
+	color: #CACACA!important;
+    border-color: #CACACA;
+    border-radius: 5px;
+    border-style : solid;
+    border-width : 1px;
+    background-color : #202024;
+}
+
+button.navbar-toggle {
+	margin-top:20px;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	border-color:#202024;
+	background-color:#FDB54E;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#202024;
 }
 
 .logo {
