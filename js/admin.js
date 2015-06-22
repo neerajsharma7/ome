@@ -21,8 +21,8 @@ $(function() {
             data: [],
             auth: {},
             $me: $(me),
-            fbData: new Firebase('https://altus-site.firebaseio.com/'),
-            fbAuth: new Firebase('https://altus-site-auth.firebaseio.com/'),
+            fbData: new Firebase('https://ome.firebaseio.com/'),
+            fbAuth: new Firebase('https://ome-auth.firebaseio.com/'),
             func: {
                 init: function () {
                     md.func.loadAuthData();
